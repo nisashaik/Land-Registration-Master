@@ -1,0 +1,35 @@
+
+// Project : Land Registration Using BlockChain
+// Technology:  BlockChain, Node JS, Angular JS, html, css, javascript
+// Chrome Extension: Meta Mask
+
+// Note: please keep some patience while executing below commands as they take some time at first time when you execute
+
+// Steps For Execution
+
+//1 : open command prompt and type below command 
+
+>>ganache-cli   
+
+// after typing above command wait for few sec/mints until you got cursor blinking with text "listening on http://127.0.0.1:8545" now you need to bit scroll up there you can see a mnemonic text like this mnemonic: "some text here" you need to copy this mnemonic and now open chrome browser and then click meta mask extension at top right to you're browser window click on it. Their you can see a text "import using account seed phrase" click on that now you need to past that mnemonic phrase in to the phrase text box and then enter password, confirm password as per you're choice click restore. now we have done with step 1. Note "Don't close that command prompt Where ganache is running"
+
+//2	: now open new command prompt window and switch to your project directory type in below command for this
+
+>>cd project_name
+
+//3 : now compile you're project with following command
+
+>>truffle compile
+
+//4 : now migrate you're project inorder to  deploy contract into ganache
+
+>>truffle migrate
+
+//5: now we need to test project using below command 
+
+>>truffle test
+
+//6: finally you need to run server using below command
+
+>>ng serve
+
